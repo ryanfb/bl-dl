@@ -16,7 +16,7 @@ These instructions assume some command-line familiarity. The `bl-dl.sh` script a
 
 1. Download the latest release of `dezoomify-rs` for your platform: <https://github.com/lovasoa/dezoomify-rs/releases>
 2. Extract the download archive and open a terminal or command line prompt where the `dezoomify-rs` executable is available. Copy/move the `dezoomify-rs` excutable so that it is available on your `PATH`, e.g.: `sudo mv -v dezoomify-rs /usr/local/bin/`
-3. Download [this script](https://github.com/ryanfb/bl-dl/blob/main/bl-dl.sh): `wget "https://raw.githubusercontent.com/ryanfb/bl-dl/main/bl-dl.sh"`
+3. Download [this script](https://github.com/ryanfb/bl-dl/blob/main/bl-dl.sh): `wget "https://raw.githubusercontent.com/ryanfb/bl-dl/main/bl-dl.sh"` - and make it executable, e.g.: `chmod a+x bl-dl.sh`
 4. Go to the webpage of the British Library manuscript you want to download. For our example we'll use Burney MS 86: <http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=burney_ms_86>
 5. Open the image viewer for the manuscript and copy the resulting link, e.g.: <http://www.bl.uk/manuscripts/Viewer.aspx?ref=burney_ms_86_fs001r>
 6. Run the `bl-dl.sh` script you downloaded using the image viewer link you just copied, e.g.: `./bl-dl.sh "http://www.bl.uk/manuscripts/Viewer.aspx?ref=burney_ms_86_fs001r"`
