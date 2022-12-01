@@ -8,7 +8,9 @@ These instructions assume you already have a working [Docker](https://www.docker
 
 1. Go to the webpage of the British Library manuscript you want to download. For our example we'll use Burney MS 86: <http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=burney_ms_86>
 2. Open the image viewer for the manuscript and copy the resulting link, e.g.: <http://www.bl.uk/manuscripts/Viewer.aspx?ref=burney_ms_86_fs001r>
-3. Run [the `bl-dl` Docker image](https://hub.docker.com/repository/docker/ryanfb/bl-dl/general) using the image viewer link you just copied, and mapping the current directory into the `/data` volume, e.g.: `docker run -ti -v "$(pwd)":/data ryanfb/bl-dl "http://www.bl.uk/manuscripts/Viewer.aspx?ref=burney_ms_86_fs001r"`
+3. Run [the `bl-dl` Docker image](https://hub.docker.com/repository/docker/ryanfb/bl-dl/general) using the image viewer link you just copied, and mapping the current directory into the `/data` volume, e.g.:
+       
+       docker run -ti -v "$(pwd)":/data ryanfb/bl-dl "http://www.bl.uk/manuscripts/Viewer.aspx?ref=burney_ms_86_fs001r"`
 
 ## Non-Docker step-by-step command-line instructions
 
