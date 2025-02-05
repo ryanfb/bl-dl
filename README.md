@@ -2,6 +2,8 @@
 
 Script, Dockerfile, and instructions for downloading full-resolution images for an entire manuscript from the British Library.
 
+**NOTE**: this script may not currently work after the British Library's restoration of manuscript image services following an extended outage due to a 2023 cyberattack. See [this issue](https://github.com/ryanfb/bl-dl/issues/2).
+
 ## Docker step-by-step instructions
 
 These instructions assume you already have a working [Docker](https://www.docker.com/) install running and some command-line familiarity.
